@@ -14,3 +14,8 @@
 - switch 
 - 2 x ethernett kabel
 - 1 x HDMI kabell
+
+## Hva jeg skal prøve og få fram.
+
+*jeg skal vise til lærerene at jeg kan sette opp nettverk, hoste nettside, og gjøre det immelomm to forksjelige pc-er med to forkjelige opperativt systemer.*^
+
