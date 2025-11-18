@@ -17,5 +17,8 @@
 
 ## Hva jeg skal prøve og få fram.
 
-*jeg skal vise til lærerene at jeg kan sette opp nettverk, hoste nettside, og gjøre det immelomm to forksjelige pc-er med to forkjelige opperativt systemer.*^
+*jeg skal vise til lærerene at jeg kan sette opp nettverk, hoste nettside, og gjøre det immelomm to forksjelige pc-er med to forkjelige opperativt systemer.*
+
+
+*det som er viktigst er og lage en python fil som jeg kan hoste på rasberry pi-en* 
 
