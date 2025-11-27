@@ -24,7 +24,7 @@
 
 # Mål for prosjektet #
 
-*Jeg vil demonstrere følgende ferdigheter:
+Jeg vil demonstrere følgende ferdigheter:
 
 Sette opp et fungerende LAN (Local Area Network) ved hjelp av router og switch.
 
@@ -38,4 +38,4 @@ En nettside hostet fra Windows-PC
 
 Krysstilgang – nettsiden fra Pi skal kunne åpnes på Windows-PC og motsatt.
 
-Lage en enkel Python-fil som fungerer som en webserver på Raspberry Pi-en.*
+Lage en enkel Python-fil som fungerer som en webserver på Raspberry Pi-en.
