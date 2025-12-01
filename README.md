@@ -39,3 +39,5 @@ En nettside hostet fra Windows-PC
 Krysstilgang – nettsiden fra Pi skal kunne åpnes på Windows-PC og motsatt.
 
 Lage en enkel Python-fil som fungerer som en webserver på Raspberry Pi-en.
+
+rizz
