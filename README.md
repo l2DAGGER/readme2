@@ -40,6 +40,21 @@ Krysstilgang – nettsiden fra Pi skal kunne åpnes på Windows-PC og motsatt.
 
 Lage en enkel Python-fil som fungerer som en webserver på Raspberry Pi-en.
 
+# hvordan proskjektet går # 
+
+Til nå går det ganske fint, 
+
+
+# Debugging #
+
+Gått gjennom mye problemer, men har klart og komme meg forbi disse feilene.
+
+- sliter med å åpne server på rasberry pi
+- bruk av feil ip adresser. (statisk og dynamisk)
+- brannmuren har ikke lagt til gang til portnummeret
+- Netmasken på rasperry pi-en var satt til 255.255.255.0 som gjør at pc-en med windows operativt ikke kan hoste servern på nettlesern dems.
+- 
+
 # rette op feilene #
 
 🔵 BLÅ (LAVT NIVÅ) – hvordan løfte disse
@@ -131,7 +146,7 @@ Eksempel:
 3. Kjør:
    python3 server.py
 4. Åpne nettleser på Windows-PC:
-   http://192.168.1.10:8000
+   http://192.168.1.10:X
 
 
 👉 Dette alene kan løfte karakteren merkbart.
