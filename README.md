@@ -47,7 +47,7 @@ Til nå går det ganske fint,
 
 # Debugging #
 
-Gått gjennom mye problemer, men har klart og komme meg forbi disse feilene.
+Gått gjennom mye problemer, men har klart og komme meg forbi disse feilene. 
 
 - sliter med å åpne server på rasberry pi
 - bruk av feil ip adresser. (statisk og dynamisk)
@@ -55,139 +55,17 @@ Gått gjennom mye problemer, men har klart og komme meg forbi disse feilene.
 - Netmasken på rasperry pi-en var satt til 255.255.255.0 som gjør at pc-en med windows operativt ikke kan hoste servern på nettlesern dems.
 - 
 
-# rette op feilene #
+# Sikkerhet #
 
-🔵 BLÅ (LAVT NIVÅ) – hvordan løfte disse
-🔵 Programmering
+jeg har lyst til og bruke ett LAN nettverk fordi det gjør sikkerheten sterkere. De eneste PC-ene som har tilgang nettsiden som jeg hoster. Hvorfor de er bare de pc-ene er fordi de er de eneste som er koblet seg til switchen med ethernet kabel. 
 
-Status nå:
-Du lager én Python-fil som hoster en nettside (bra start).
-
-Hvordan forbedre:
-
-Bruk http.server i Python, men:
-
-Legg til egne funksjoner
-
-Kommenter koden
-
-Bruk if __name__ == "__main__":
-
-Eksempel (bedre enn minimum):
-
-from http.server import HTTPServer, SimpleHTTPRequestHandler
-
-def start_server(port=8000):
-    server = HTTPServer(("", port), SimpleHTTPRequestHandler)
-    print(f"Server kjører på port {port}")
-    server.serve_forever()
-
-if __name__ == "__main__":
-    start_server()
+# Infrastruktur  #
 
 
-👉 Hvorfor dette er bedre:
+Routeren delte ut IP-adresser via DHCP. Switchen ble brukt for å koble Raspberry Pi og Windows-PC til samme lokale nettverk.
 
-Viser forståelse for Python-struktur
+- DHCP
+- LAN
+- WAN
 
-Ikke bare kopiert kode
-
-Enkelt å forklare muntlig
-
-🔵 Debugging
-
-Status nå:
-Lite eller ingen feilsøking dokumentert.
-
-Hvordan forbedre:
-
-Vis at du har møtt feil og løst dem
-
-Eksempler på ting du kan teste og skrive om:
-
-ping mellom PC og Pi
-
-Feil IP-adresse
-
-Brannmur blokkerer port 8000
-
-Eksempel du kan skrive i oppgaven:
-
-"Da jeg prøvde å åpne nettsiden fra Windows-PC-en fikk jeg ingen respons. Jeg brukte ping for å sjekke tilkoblingen og oppdaget at Raspberry Pi-en hadde en annen IP-adresse enn forventet."
-
-👉 Dette viser problemløsing og debugging, ikke bare at “det funket”.
-
-🟢 GRØNN (MIDDELS) – hvordan løfte disse til HØY
-🟢 Dokumentasjon
-
-Status nå:
-Kort README / lite forklaring (GitHub-teksten du viste).
-
-Hvordan forbedre:
-Lag en ordentlig README med disse delene:
-
-Mål
-
-Utstyr
-
-Nettverksoppsett (tekst + evt. bilde)
-
-IP-adresser
-
-Hvordan starte webserver
-
-Feil og løsninger
-
-Eksempel:
-
-## Hvordan starte webserver på Raspberry Pi
-1. Start Raspberry Pi
-2. Åpne terminal
-3. Kjør:
-   python3 server.py
-4. Åpne nettleser på Windows-PC:
-   http://192.168.1.10:X
-
-
-👉 Dette alene kan løfte karakteren merkbart.
-
-🟢 Sikkerhet
-
-Status nå:
-Sikkerhet nevnes lite eller ikke konkret.
-
-Hvordan forbedre (enkelt, men smart):
-
-Forklar at:
-
-Nettverket er lokalt (LAN)
-
-Ingen port forwarding til internett
-
-Endre standardpassord på Raspberry Pi (si at du har gjort det)
-
-Forklar brannmur kort
-
-Eksempeltekst:
-
-"For sikkerhet ble nettsiden kun tilgjengelig på det lokale nettverket. Raspberry Pi-en ble ikke eksponert mot internett, og standardpassord ble endret."
-
-🟢 Infrastruktur (nettverk)
-
-Status nå:
-Du bruker router + switch, men forklarer lite.
-
-Hvordan forbedre:
-
-Forklar forskjellen på:
-
-Router (DHCP, WAN/LAN)
-
-Switch (kobler enheter)
-
-Vis hvordan kablene er koblet
-
-Eksempel:
-
-"Routeren delte ut IP-adresser via DHCP. Switchen ble brukt for å koble Raspberry Pi og Windows-PC til samme lokale nettverk."
 
