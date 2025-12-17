@@ -42,7 +42,11 @@ Lage en enkel Python-fil som fungerer som en webserver på Raspberry Pi-en.
 
 # hvordan proskjektet går # 
 
-Til nå går det ganske fint, 
+Til nå går det ganske fint, liker veldig og jobbe med proskjekt hvor jeg kan velge selv hva jeg driver med. hvordan jeg får vist egen kompetanse innfor egenskaper som jeg kan mest av.
+
+- nettverk
+- sikkerhet
+- brukerstøtte
 
 
 # Debugging #
@@ -68,4 +72,6 @@ Routeren delte ut IP-adresser via DHCP. Switchen ble brukt for å koble Raspberr
 - LAN
 - WAN
 
+# oppsumering #
 
+jeg har gått gjennom starten av proskjektet, gjennomgangen, prossen osv. 
