@@ -74,4 +74,4 @@ Routeren delte ut IP-adresser via DHCP. Switchen ble brukt for å koble Raspberr
 
 # oppsumering #
 
-jeg har gått gjennom starten av proskjektet, gjennomgangen, prossen osv. 
+jeg har gått gjennom starten av proskjektet, gjennomgangen, prossen osv. Inholde i quiz-en skal være om skole året 2025-2026. 
